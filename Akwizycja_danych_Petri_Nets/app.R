@@ -37,7 +37,7 @@ ui <- dashboardPage(skin = "purple",
             menuItem("Pobranie artykulow", tabName = "artykuly", icon = icon("newspaper")),
             menuItem("Baza Solr", tabName = "data", icon = icon("database"), badgeLabel = "nowa", badgeColor = "green"),
             menuItem("Chmura i klastry", tabName = "chmura", icon = icon("chart-pie")),
-            menuItem("Link do kodu aplikacji", href = "https://www.google.com", icon = icon("code"))
+            menuItem("Link do kodu aplikacji", href = "https://github.com/dmitriypolianychko17/Akwizycja_Danych_z_konrerencji_Petri_Nets", icon = icon("code"))
         )
     ),
     dashboardBody(
